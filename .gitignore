@@ -1,0 +1,25 @@
+# Données et sorties lourdes
+/data/
+!data/.gitkeep
+
+# Modèles et checkpoints
+*.pt
+*.pth
+checkpoints/
+runs/
+results/
+figures/
+
+# Python
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# Système
+.DS_Store
+Thumbs.db

@@ -1,0 +1,16 @@
+name: catsdogs
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy>=1.26
+  - pandas>=2.0
+  - matplotlib>=3.8
+  - scikit-learn>=1.3
+  - ipykernel>=6.0
+  - jupyter>=1.0
+  - pip
+  - pip:
+      - torch>=2.1.0
+      - torchvision>=0.16.0
